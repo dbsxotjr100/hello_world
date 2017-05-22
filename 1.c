@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-	int num=0;
-	int i=0, j=0, k=0;
+	int grade[10];
+	int i=0, j=0,sum=0,tmp=0;
 	printf("줄의 수를 입력하세요 : ");
 	scanf("%d", &num);
 	for(i=0;i<=num;i++){
